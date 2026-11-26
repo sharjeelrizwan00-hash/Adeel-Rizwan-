@@ -1,3 +1,6 @@
+import banner1 from '../images/banner1.jpg';
+import banner2 from '../images/banner2.jpg';
+
 export type BannerGenre =
   | 'All'
   | 'FPS & Tactical'
@@ -61,7 +64,9 @@ export interface BannerOrder {
 }
 
 export const GAMING_HERO_IMAGE = {
-  src: '/src/assets/images/gaming_hero_banner_1795613049660.jpg',
+  • 
+	• src: banner1,
+  
   alt: 'Pro gaming setup displaying custom tactical esports banner artwork on ultrawide monitor',
 };
 
@@ -94,7 +99,7 @@ export const BANNER_CATALOG: BannerProduct[] = [
     priceUsd: 25,
     summary:
       'Brutalist concrete depth with tactical operator silhouette and high-contrast custom gamer tag typography.',
-    image: '/src/assets/images/banner_fps_tactical_1795613050574.jpg',
+    image: banner1
     imageAlt: 'Tactical shooter esports banner artwork with armored operator silhouette',
     platforms: ['YouTube', 'Twitch', 'Kick'],
     includes: [
@@ -113,7 +118,7 @@ export const BANNER_CATALOG: BannerProduct[] = [
     priceUsd: 35,
     summary:
       'Metallic crest framing over twilight alpine combat artwork with custom clan badge and ember lighting.',
-    image: '/src/assets/images/banner_battle_royale_1795613050294.jpg',
+    image: banner2
     imageAlt: 'Battle royale gaming banner with armored frame and twilight mountain battleground',
     platforms: ['YouTube', 'Discord', 'X / Twitter'],
     includes: [
@@ -132,7 +137,7 @@ export const BANNER_CATALOG: BannerProduct[] = [
     priceUsd: 30,
     summary:
       'Wet-track GT3 night race composition tailored for sim racing leagues, F1 creators, and motorsport streamers.',
-    image: '/src/assets/images/banner_racing_sim_1795613051374.jpg',
+    image: banner1,
     imageAlt: 'Carbon-fiber GT3 race car cornering under night stadium floodlights',
     platforms: ['YouTube', 'Twitch', 'X / Twitter'],
     includes: [
@@ -151,7 +156,7 @@ export const BANNER_CATALOG: BannerProduct[] = [
     priceUsd: 40,
     summary:
       'Atmospheric stone citadel key art with engraved metallic serif lettering built for RPG and MMO streamers.',
-    image: '/src/assets/images/banner_fantasy_rpg_1795613051132.jpg',
+    image: banner2,
     imageAlt: 'Dark fantasy RPG stone citadel gate with warm torchlight and silver mist',
     platforms: ['Twitch', 'YouTube', 'Kick'],
     includes: [
